@@ -1,0 +1,93 @@
+body{
+    background-color:#1b1b1b;
+}
+#main{
+    display: flex;
+    transition: all 2s;
+}
+#nazwastrony{
+    margin-left: 37%;
+    transition: all 2s;
+    float:left;
+    position: absolute;  
+    top: 30px;
+    border: 2px solid #ffa31a;
+}
+#psy{
+    color: #ffa31a;
+    float: left;
+    transition: all 2s;
+    position: absolute;
+    left: 100px;top:300px;
+}
+#koty{
+    color: #ffa31a;
+    float: left;
+    margin: left;
+    position: absolute;
+    left: 500px;top:300px;
+    transition: all 2s;
+}
+#zabawki{
+    color: #ffa31a;
+    float: left;
+    margin: left;
+    position: absolute;
+    left: 1200px;top:300px;
+    
+    transition: all 2s;
+}
+#dol{
+    color: #ffa31a;
+    float: left;
+    margin: left;
+    position: absolute;
+    left: 1600px;top: 300px;
+    transition: all 2s;
+}
+#czomik{
+    color: #ffa31a;
+    float: left;
+    margin: left;
+    position: absolute;
+    left: 850px;top: 300px;
+    transition: all 2s;
+}
+#komentarze{
+    color: #ffa31a;
+    float: left;
+    position: absolute;
+    left: 100px;top: 800px;
+}
+#tekst{
+    color: #d9a960;
+    float: left;
+    position: absolute;
+    left: 300px;top: 150px;
+}
+#psy:hover{
+    transform: scale(1.2);
+    background-color:#5e4116;
+}
+#koty:hover{
+    transform: scale(1.2);
+    background-color:#74e995;
+}
+#zabawki:hover{
+    transform: scale(1.2);
+    background-color:#f9648c;
+}
+#dol:hover{
+    transform: scale(1.2);
+    background-color:#6e64f9;
+}
+#nazwastrony:hover{
+    transform: scale(1.2);
+    border: 10px solid #ffa31a;
+}
+#czomik:hover{
+    transform: scale(1.2);
+    background-color:#d1f964;
+}
+
+
